@@ -1,0 +1,48 @@
+
+
+section{
+    width: 100%;
+    background: white;
+}
+
+#corpo {
+	width: auto;
+}
+
+#baners {
+    margin-top: 20px;
+    margin: auto;
+    max-width: 100%;
+    height: auto;
+}
+
+body{
+    background: rgb(66, 66, 133);
+}
+
+td {
+	text-align: center;
+    width: auto;
+}
+
+h3, h4 {
+	margin: 0;
+    color: black;
+}
+
+table{
+	margin: auto;
+    width: auto;
+}
+
+tr{
+    max-width: 100%;
+    height: auto;
+}
+
+img{
+    border-radius: 30px;
+    border: 8px solid black;
+    max-width: 100%;
+    height: auto;
+}

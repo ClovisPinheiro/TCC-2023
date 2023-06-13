@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=S, initial-scale=1.0">
+        <title>Pro Gamer Master</title>
+
+        <link rel="stylesheet" href="css/style_menu.css">
+        <link rel="stylesheet" href="css/cabecalho.css">
+        <link rel="stylesheet" href="css/paging.css">
+        <link rel="stylesheet" href="css/rodape.css">
+        <link rel="stylesheet" href="css/form.css">
+
+        <script src="js/form.js" defer></script>
+        
+    </head>
+
+    <body>
+
+        <header>
+            <div class="caixa">
+                <h1 class="principal"><img src="img/logo.png.png" alt="logo"> Pro Gamer Master: Dicas e Truques</h1>
+            </div>
+        </header>
+
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="PlayStation 1.html">Play 1</a></li>
+            <li><a href="PlayStation 2.html">Play 2</a></li>
+            <li><a href="Shopping.html">Shopping</a></li>
+            <li><a href="Classificados.html">Classificados</a></li>
+        </ul>
+
+        <section class="noticias">
+            <section class="noticias">
+                <main>
+                    <div class="caixa">
+                        <h2 class="titulo">Publique seu anuncio</h2></br>
+            
+                        <table id="tabelaAnuncios">
+                            <tbody>
+                                <tr class="anuncio" id="anun">
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </main>
+    
+                <section>
+                    <div class="caixa">
+                        <h2 class="titulo-h2">Anuncie Aqui!</h2>
+                        <form method="POST" action="registro.php" id="classificado">
+                            <div class="row">
+                                <div class="col-4 col-s-12">
+                                    <label for="txtProduto" class="rotulo">Produto</label>
+                                    <input type="text" id="txtProduto" name="Produto" placeholder="Digite o produto" maxlength="50" required class="caixa-texto">
+                                </div>
+                            </div>
+                            <div>
+                                <div class="col-4 col-s-12">
+                                    <label for="txtNome" class="rotulo">Nome</label>
+                                    <input type="text" id="txtNome" name="Nome" placeholder="Digite o Nome" maxlength="50" required class="caixa-texto">
+                                </div>
+                                <div class="col-4 col-s-12">
+                                    <label for="txtContato" class="rotulo">Contato</label>
+                                    <input type="text" id="txtContato" name="Contato" placeholder="Digite o Contato" maxlength="50" required class="caixa-texto">
+                                </div>
+                                <div class="col-4 col-s-12">
+                                    <label for="txtCid_Est" class="rotulo">Cidade/UF</label>
+                                    <input type="text" id="txtCid_Est" name="Cid_Est" placeholder="Digite a cidade e o estado" maxlength="50" required class="caixa-texto">
+                                </div>
+                            </div>
+                            <div>
+                                <div class="col-12 col-s-12">
+                                    <label for="txtDescricao" class="rotulo">Descrição</label>
+                                    <input type="text" id="txtDescricao" name="Descricao" placeholder="Digite o produto" maxlength="100" required class="caixa-texto">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-10 col-s-12"></div>
+                                <div class="col-2 col-s-12">
+                                    <button type="submit" id="btnSalvar" class="btn btn-info">Anunciar</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </section>
+            </section>            
+        </section>
+    
+    </body>
+
+    <footer class="rodape">
+        <p>Engenheiro de Software - Clovis Ricardo Pinheiro</p>
+    </footer>
+
+</html>

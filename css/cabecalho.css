@@ -1,0 +1,25 @@
+
+.caixa {
+	padding: 20px 15px;
+    text-align: center;
+}
+
+.titulo-h2, .principal {
+    font-size: 2.5em;
+    padding: 5px 0;
+    margin: 5px 0;
+    border-bottom: 1px dashed #525252;
+}
+
+header {
+    background: #001b44;
+}
+
+.caixa {
+	padding: 20px 15px;
+    text-align: center;
+}
+
+h1{
+    color: aqua;
+}
